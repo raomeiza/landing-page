@@ -117,7 +117,7 @@ export default function PrimarySearchAppBar(props: { open: boolean, handleDrawer
     scrollPos = window.scrollY;
     screenH = window.innerHeight;
     console.log(scrollPos);
-    if (scrollPos > screenH) {
+    if (scrollPos > screenH - 100) {
       setShowDrawer(true);
     } else {
       setShowDrawer(false);
