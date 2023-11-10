@@ -3,10 +3,8 @@ import { Slide, Card, CardHeader, CardMedia, CardContent, Typography, CardAction
 import React from "react";
 
 export interface IItem {
-	name: string
-	image: {default: any}
-	description: string
-	url: string
+	title: string
+	img: string
 }
 
 export interface ISlidesProps {
@@ -53,10 +51,11 @@ export default function ImageSlides (props: ISlidesProps) {
 						justifyContent: 'center',
 						alignItems: 'center'
 					}}>
-						<CardMedia component="img" image={item.image.default} alt={item.name} sx={{maxWidth: imageMaxWidth  || '200px', ...(props.circleImage ? {borderRadius: '50%'} : {})}} />
-						<CardActions disableSpacing>
-							<Button size="small" href={item.url} target="_blank">Learn More</Button>
-						</CardActions>
+						<CardMedia component="img" src={item.img} alt={item.title} sx={{minWidth: '100%', ...(props.circleImage ? {borderRadius: '50%'} : {})}} />
+            <CardHeader subheader={item.title} />
+						{/* <CardActions disableSpacing>
+							<Button size="small" >Learn More</Button>
+						</CardActions> */}
 					</Card>
 				</Slide>
 			))}
