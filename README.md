@@ -10,7 +10,7 @@
 - Modular in design
 - Adaptive design
 
-## url <a href="elanding.vercel.app" target="_blank">elanding.vercel.app</a>
+## url <a href="https://elanding.vercel.app" target="_blank">elanding.vercel.app</a>
 
 
 
