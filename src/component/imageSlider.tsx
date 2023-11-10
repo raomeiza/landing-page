@@ -15,7 +15,7 @@ export interface ISlidesProps {
 	imageMaxWidth?: string
 }
 
-export default function Slides (props: ISlidesProps) {
+export default function ImageSlides (props: ISlidesProps) {
 	const {items, circleImage, imageMaxWidth} = props
 	const [activeStep, setActiveStep] = React.useState(0);
 	const maxSteps = items.length;
@@ -53,13 +53,7 @@ export default function Slides (props: ISlidesProps) {
 						justifyContent: 'center',
 						alignItems: 'center'
 					}}>
-						<CardHeader title={item.name} subheader={item.description} />
 						<CardMedia component="img" image={item.image.default} alt={item.name} sx={{maxWidth: imageMaxWidth  || '200px', ...(props.circleImage ? {borderRadius: '50%'} : {})}} />
-						<CardContent>
-							<Typography variant="body2" color="text.secondary">
-								{item.description}
-							</Typography>
-						</CardContent>
 						<CardActions disableSpacing>
 							<Button size="small" href={item.url} target="_blank">Learn More</Button>
 						</CardActions>

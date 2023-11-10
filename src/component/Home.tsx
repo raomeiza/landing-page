@@ -12,21 +12,23 @@ export default function Home() {
   const { user, token } = React.useContext(UserContext);
 
   return (
-    <Box>
+    <Box  component={'main'}
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        width: '100%',
+      }}
+    >
       <Landing id='Home'/>
+      <Box sx={{width: {xs: '90%', sm: '80%', md: '70%' }}}>
       <Products id='Products'/> 
       <Team id='Team'/>
       <About id='About'/>
       <Contact id='Contact'/>
-      <MiniDrawer />
-      <Box
-        sx={{
-          height: '100vh'
-        }}
-        
-      >
-
       </Box>
+      <MiniDrawer />
     </Box>
   )
 }

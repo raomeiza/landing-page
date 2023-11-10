@@ -1,4 +1,4 @@
-import { Typography } from '@mui/material';
+import { Divider, Typography } from '@mui/material';
 import Box from '@mui/material/Box';
 import * as MuiLogo from './svg/miu.svg'
 import * as ReactLogo from './svg/logo.svg'
@@ -51,7 +51,6 @@ export default function About(props: { id: string }) {
 				justifyContent: 'center',
 				alignItems: 'center',
 				flexDirection: 'column',
-
 			}}
 			id={props.id}
 		>
@@ -61,7 +60,7 @@ export default function About(props: { id: string }) {
 			<Typography variant="h5" component="div" gutterBottom fontFamily={'monospace'} padding={2}>
 				This landing page was designed using the following technologies:
 			</Typography>
-			<Box sx={{ width: { xs: '100%', sm: '80%', md: '50%', padding: 2 }, size: '200px',
+			<Box sx={{  size: '200px',
 			display: 'flex',
 			justifyContent: 'center',
 			alignItems: 'center',
@@ -70,8 +69,9 @@ export default function About(props: { id: string }) {
 			overflow: 'hidden',
 			gap: 2,
 		}} >
-				<Slides items={items}/>
+				<Slides items={items} />
 			</Box>
+			<Box sx={{ height: '3rem' }} />
 		</Box>
 	)
 }
