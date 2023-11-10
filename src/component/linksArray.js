@@ -1,0 +1,1 @@
+export default ['Home', 'Products', 'Team', 'About', 'Contact']

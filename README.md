@@ -1,38 +1,49 @@
-# Calculator
+# Landing
+## A beautifull landing page for your next big project
 
-Basic calculator operation with server for storing user's calculation history. 
 
 - 🍞 Framework : React 18.2.0
 - 🥪 Library : React-Icon, MUI
 
 **Features**
-- Have basic calculator operation such as plus, minus, divide and multiplicattion
-- supports fraction
-- supports user calculation history by
-    - user registering, login and logout of an account
-    - user can save their calculation history. this is automatically saved if user is logged in
-    - user can view their calculation history
-    - user can delete their calculation history
-    
-- Change theme color for light and dark
+- Simple yet intuitive interface
+- Modular in design
+- Adaptive design
 
-**documentation Link**
-- [API](
-    https://calc-server-f8vm.onrender.com/api-docs/#/)
-- [Frontend](
-    https://calc-client-f8vm.onrender.com/)
-- [Backend](
-    https://calc-server-f8vm.onrender.com/)
 
 
 **How to run**
-- clone the repository
+- clone the repository 
+    - `git clone https://github.com/raomeiza/landing-page/pull/1`
 - run `npm install` to install dependencies
 - run `npm build` to build the project
 - run `npm start` to start the project
 
 **Screenshots**
-- [calculator]()
+- Desktop View
+  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/landscap-landing.PNG?raw=true" width="350px">
+  
+  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/landscap-contact.PNG?raw=true" width="350px">
+  
+  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/landscap-about.PNG?raw=true" width="350px">
+  
+  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/landscap-team.PNG?raw=true" width="350px">
+  
+  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/landscap-product.PNG?raw=true" width="350px">
+  
+- Mobile View
+  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/mobile-landing.PNG?raw=true" width="350px">
+  
+  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/mobile-contact.PNG?raw=true" width="350px">
+  
+  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/mobile-about.PNG?raw=true" width="350px">
+  
+  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/mobile-team.PNG?raw=true" width="350px">
+  
+  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/mobile-product.PNG?raw=true" width="350px">
+  
+  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/mobile-menu.PNG?raw=true" width="350px">
+  
 
 
 <img src="https://github.com/jocunda/calculator/blob/master/src/assets/calculator.jpg" width="350px">
