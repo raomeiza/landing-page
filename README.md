@@ -10,6 +10,8 @@
 - Modular in design
 - Adaptive design
 
+## url <a href="elanding.vercel.app" target="_blank">elanding.vercel.app</a>
+
 
 
 **How to run**
@@ -21,29 +23,26 @@
 
 **Screenshots**
 - Desktop View
-  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/landscap-landing.PNG?raw=true" width="350px">
+  - <img src="https://github.com/raomeiza/landing-page/blob/main/public/landing-page/src/landscap-landing.PNG?raw=true" width="350px">
   
-  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/landscap-contact.PNG?raw=true" width="350px">
+  - <img src="https://github.com/raomeiza/landing-page/blob/main/public/landing-page/src/landscap-contact.PNG?raw=true" width="350px">
   
-  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/landscap-about.PNG?raw=true" width="350px">
+  - <img src="https://github.com/raomeiza/landing-page/blob/main/public/landing-page/src/landscap-about.PNG?raw=true" width="350px">
   
-  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/landscap-team.PNG?raw=true" width="350px">
+  - <img src="https://github.com/raomeiza/landing-page/blob/main/public/landing-page/src/landscap-team.PNG?raw=true" width="350px">
   
-  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/landscap-product.PNG?raw=true" width="350px">
+  - <img src="https://github.com/raomeiza/landing-page/blob/main/public/landing-page/src/landscap-product.PNG?raw=true" width="350px">
   
 - Mobile View
-  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/mobile-landing.PNG?raw=true" width="350px">
+  - <img src="https://github.com/raomeiza/landing-page/blob/main/public/landing-page/src/mobile-landing.PNG?raw=true" width="350px">
   
-  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/mobile-contact.PNG?raw=true" width="350px">
+  - <img src="https://github.com/raomeiza/landing-page/blob/main/public/landing-page/src/mobile-contact.PNG?raw=true" width="350px">
   
-  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/mobile-about.PNG?raw=true" width="350px">
+  - <img src="https://github.com/raomeiza/landing-page/blob/main/public/landing-page/src/mobile-about.PNG?raw=true" width="350px">
   
-  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/mobile-team.PNG?raw=true" width="350px">
+  - <img src="https://github.com/raomeiza/landing-page/blob/main/public/landing-page/src/mobile-team.PNG?raw=true" width="350px">
   
-  - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/mobile-product.PNG?raw=true" width="350px">
+  - <img src="https://github.com/raomeiza/landing-page/blob/main/public/landing-page/src/mobile-product.PNG?raw=true" width="350px">
   
   - <img src="https://github.com/raomeiza/landing-page/blob/landing-page/src/mobile-menu.PNG?raw=true" width="350px">
   
-
-
-<img src="https://github.com/jocunda/calculator/blob/master/src/assets/calculator.jpg" width="350px">
